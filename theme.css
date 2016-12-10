@@ -5122,7 +5122,7 @@ div.platform-osx .theme-light+span .user-settings-modal .tab-bar.SIDE .tab-bar-i
     position: absolute;
     width: 90%;
     left: 5%;
-    z-index: 1;
+    z-index: 1000 !important;
     background-color: rgba(79,84,92,.9);
     font-size: 11px;
     line-height: 14px;
