@@ -1,10 +1,10 @@
 .form.settings.user-settings-modal .settings-actions:before,
 .lastversion:after {
-    content: "Current version: v1.8.0";
+    content: "Current version: v1.1";
 }
 
 .app:after {
-    content: "Welcome back to Discord\AHave a nice day :D";
+    content: "Welcome back to Discord 🍪\AHave a nice day :D\A\A- AlexFlipnote";
 }
 
 /*-----GENERAL KEYFRAMES-----*/
@@ -932,6 +932,10 @@
 .guild-channels .channel-voice-states li .avatar-small {
     -webkit-transition: all 150ms ease;
     transition: all 150ms ease;
+}
+
+.speaking {
+	font-weight: 900;
 }
 
 .guild-channels .channel-voice-states li.speaking .avatar-small {
