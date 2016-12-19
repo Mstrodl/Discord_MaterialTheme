@@ -647,8 +647,23 @@
     margin-top: 0px;
 }
 
-.guild-separator {
-    margin-bottom: 0px!important
+.guilds-wrapper .guild-separator {
+    height: 2px;
+    width: 50px;
+    position: relative;
+    background: 0 0;
+    margin-top: 3px;
+    margin-bottom: 5px;
+}
+
+.guilds-wrapper .guild-separator:after {
+    position: absolute;
+    top: 0;
+    left: 20%;
+    right: 15%;
+    content: ' ';
+    height: 2px;
+    background: #696969;
 }
 
 .dms {
