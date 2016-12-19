@@ -1,6 +1,6 @@
 .form.settings.user-settings-modal .settings-actions:before,
 .lastversion:after {
-    content: "Current version: v1.1";
+    content: "Current version: v1.3";
 }
 
 .app:after {
@@ -885,8 +885,13 @@
     box-shadow: 0px 10px 10px rgba(0, 0, 0, .3)
 }
 
+.markdown-modal .markdown-modal-header:before {
+  content: "🎁 ";
+}
+
 .markdown-modal .markdown-modal-header {
     border-bottom: 0px;
+    text-align: center;
 }
 
 .context-menu {
@@ -2858,7 +2863,11 @@ code:hover .copybutton {
 }
 
 .change-log .embed .embed-video-actions {
-    padding-bottom: 4px
+    display: none;
+}
+
+.change-log {
+  color: white;
 }
 
 .embed-thumbnail-video:hover {
@@ -3990,12 +3999,13 @@ span {
 }
 
 .markdown-modal .markdown-modal-footer {
+    text-align: center;
     background-color: #212121;
     border-top: 0!important
 }
 
 .markdown-modal .markdown-modal-header .markdown-modal-close {
-    background: url(https://storage.googleapis.com/material-icons/external-assets/v4/icons/svg/ic_clear_white_24px.svg);
+    background: url(https://discordapp.com/assets/14f734d6803726c94b970c3ed80c0864.svg);
     background-size: 100%
 }
 
@@ -4814,6 +4824,83 @@ div.platform-osx .theme-light+span .user-settings-modal .tab-bar.SIDE .tab-bar-i
     font-weight: 800;
 }
 
+.hljs {
+	display: block;
+	overflow-x: auto;
+	padding: 0.5em;
+}
+
+.hljs,
+.hljs-tag,
+.hljs-subst {
+	color: #ffffff !important
+}
+
+.hljs-strong,
+.hljs-emphasis {
+	color: #a8a8a2 !important
+}
+
+.hljs-bullet,
+.hljs-quote,
+.hljs-number,
+.hljs-regexp,
+.hljs-literal,
+.hljs-link {
+	color: #ae81ff !important
+}
+
+.hljs-code,
+.hljs-title,
+.hljs-section,
+.hljs-selector-class {
+	color: #a6e22e !important
+}
+
+.hljs-strong {
+	font-weight: bold !important
+}
+
+.hljs-emphasis {
+	font-style: italic !important
+}
+
+.hljs-keyword,
+.hljs-selector-tag,
+.hljs-name,
+.hljs-attr {
+	color: #f92672 !important
+}
+
+.hljs-symbol,
+.hljs-attribute {
+	color: #66d9ef !important
+}
+
+.hljs-params,
+.hljs-class .hljs-title {
+	color: #f8f8f2 !important
+}
+
+.hljs-string,
+.hljs-type,
+.hljs-built_in,
+.hljs-builtin-name,
+.hljs-selector-id,
+.hljs-selector-attr,
+.hljs-selector-pseudo,
+.hljs-addition,
+.hljs-variable,
+.hljs-template-variable {
+	color: #e6db74 !important
+}
+
+.hljs-comment,
+.hljs-deletion,
+.hljs-meta {
+	color: #75715e !important
+}
+
 .guild-channels .icon {
     margin-top: 2px
 }
@@ -5339,6 +5426,11 @@ a[href="/channels/@me"] .badge{
 .message-group .embed-wrapper .embed-color-pill{
     display:block;
 }
+
+.change-log .embed-wrapper {
+  display: none;
+}
+
 .embed:after{
     content:"";
     display:block;
