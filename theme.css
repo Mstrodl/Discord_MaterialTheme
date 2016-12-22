@@ -780,6 +780,7 @@
     background-repeat: no-repeat;
     border-radius: 50%;
     box-shadow: 0 5px 15px rgba(0, 0, 0, .25), 0 -1px 0px rgba(0, 0, 0, 0.2) inset, 0 2px 1px rgba(255, 255, 255, 0.1) inset;
+    animation
 }
 
 .guilds-wrapper .guild.guilds-add:hover:after {
@@ -3259,6 +3260,7 @@ div[style="height:30px;width:100%;background:#282B30;"] progress {
     top: -4px;
     display: block;
     -webkit-transition: all 200ms ease;
+    ;
     transition: all 200ms ease;
     border-style: solid;
     border-width: 0 10px 10px 0;
@@ -4266,6 +4268,11 @@ span {
 
 .user-popout .avatar-wrapper .avatar-popout {
     border: 0
+}
+
+.avatar-large, .avatar-profile, .avatar-small, .avatar-xlarge, .avatar-xsmall, .avatar-xxlarge {
+    border-radius: 33%;
+    -webkit-border-radius: 33%;
 }
 
 .quick-message {
