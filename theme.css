@@ -4274,11 +4274,6 @@ span {
     border: 0
 }
 
-.avatar-large, .avatar-profile, .avatar-small, .avatar-xlarge, .avatar-xsmall, .avatar-xxlarge {
-    border-radius: 33%;
-    -webkit-border-radius: 33%;
-}
-
 .quick-message {
     border: 0;
     color: #fff;
