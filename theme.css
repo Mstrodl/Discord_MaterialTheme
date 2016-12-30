@@ -1,10 +1,10 @@
 .form.settings.user-settings-modal .settings-actions:before,
 .lastversion:after {
-    content: "Current version: v1.4.1";
+    content: "Current version: v1.5.21 dev";
 }
 
 .app:after {
-    content: "Welcome to Discord ❤\A\A Theme: Material Design\A Creator: AlexFlipnote#9173";
+    content: "Welcome to Discord ❤\A\A Theme: Material Design\A Fork: AlexFlipnote#9173\A OC: BeardDesign#6223";
 }
 
 /*-----GENERAL KEYFRAMES-----*/
