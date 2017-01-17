@@ -5462,8 +5462,8 @@ a[href="/channels/@me"] .badge {
     box-shadow: 0 2px 5px rgba(0, 0, 0, .1);
 }
 
-.message-group .embed-wrapper .embed-color-pill {
-    display: none;
+.message-group .embed-wrapper .embed-color-pill{
+    display:block;
 }
 
 .embed:after {
